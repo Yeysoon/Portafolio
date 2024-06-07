@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img-top {
+    width: 700px;
+    /* Ajusta el ancho según tus necesidades */
+    height: auto;
+    /* Mantén la relación de aspecto */
+}
+
+.card-title {
+    margin-top: 20px;
+    text-align: justify;
+    /* Ajusta según sea necesario */
+    color: #ffffff;
+    /* Cambia el color del texto */
+    font-family: Arial, sans-serif;
+    /* Cambia el tipo de fuente */
+    font-size: 16px;
+    /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+.card-text {
+    margin-top: 20px;
+    text-align: justify;
+    /* Ajusta según sea necesario */
+    color: #a6aba3;
+    /* Cambia el color del texto */
+    font-family: Arial, sans-serif;
+    /* Cambia el tipo de fuente */
+    font-size: 16px;
+    /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+/* Adjustar posición de la imagen y el texto */
+.card-img-top {
+    margin-right: 20px;
+    /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px;
+    /* Espacio debajo de la imagen */
+}
