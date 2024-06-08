@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class VitaeComponent {
 
   downloadPDF() {
-    const fileName = 'assets/Curriculum-Vitae-Yeysoon.pdf'; // Nombre del archivo PDF en tu carpeta de assets
+    const fileName = 'Yeysoon.pdf'; // Nombre del archivo PDF en tu carpeta de assets
     const filePath = `assets/${fileName}`; // Ruta del archivo PDF
 
     // Crea un enlace temporal

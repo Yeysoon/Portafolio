@@ -119,3 +119,12 @@ body {
 .skills ul li {
     margin-bottom: 10px;
 }
+
+.download {
+    flex: 1;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    min-width: 250px;
+}
