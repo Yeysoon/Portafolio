@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  downloadCV() {
+    const link = document.createElement('a');
+    link.href = 'assets/CV.pdf';
+    link.download = 'CV.pdf';
+    link.click();
+  }
+
 }

@@ -7,14 +7,16 @@
     width: 60px;
     height: auto;
     border-radius: 15px;
-    /* Hace que las esquinas sean redondeadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-    /* Añade una sombra */
+    /* Esquinas redondeadas */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1),
+        0 6px 20px rgba(21, 20, 20, 0.1),
+        inset 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Añade sombras exteriores e interiores */
 }
 
 .nav-item {
     margin: 0 10px;
-    /* Ajusta este margen según sea necesario */
+    color: #312965;
 }
 
 .navbar-nav {
