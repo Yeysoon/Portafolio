@@ -1,4 +1,12 @@
 body {
     background-color: #465F50;
     /* Reemplaza #f0f0f0 con el color que desees */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    height: 100%;
 }
