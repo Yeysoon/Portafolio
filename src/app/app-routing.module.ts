@@ -4,6 +4,7 @@ import { TeconologyComponent } from './Components/teconology/teconology.componen
 import { ProyectsComponent } from './Components/proyects/proyects.component';
 import { ContactoComponent } from './Components/contacto/contacto.component';
 import { BodyComponent } from './Components/body/body.component';
+import { VitaeComponent } from './Components/vitae/vitae.component';
 
 const routes: Routes = [
 
@@ -13,8 +14,10 @@ const routes: Routes = [
   { path: '', redirectTo: '/tecnology', pathMatch: 'full' },
   { path: '', redirectTo: '/proyects', pathMatch: 'full' },
   { path: '', redirectTo: '/contacto', pathMatch: 'full' },
+  { path: '', redirectTo: '/vitae', pathMatch: 'full' },
 
 
+  { path: 'vitae', component: VitaeComponent },
   { path: 'tecnology', component: TeconologyComponent },
   { path: 'proyects', component: ProyectsComponent },
   { path: 'contacto', component: ContactoComponent },

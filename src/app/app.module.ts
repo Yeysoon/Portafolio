@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { VitaeComponent } from './Components/vitae/vitae.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
     BodyComponent,
     TeconologyComponent,
     ProyectsComponent,
-    ContactoComponent
+    ContactoComponent,
+    VitaeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     CarouselModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    VitaeComponent
   ],
   providers: [
     provideClientHydration()
