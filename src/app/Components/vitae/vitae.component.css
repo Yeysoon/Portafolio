@@ -1,24 +1,76 @@
-.body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
+.navbar {
+    background-color: transparent;
+    color: transparent;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     background: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-section,
+.right-section {
+    padding: 20px;
+}
+
+.left-section {
+    flex: 2;
+    min-width: 300px;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    min-width: 250px;
 }
 
 .header {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.header h1 {
+.header img {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.header-info {
+    max-width: calc(100% - 170px);
+}
+
+.header-info h1 {
     margin: 0;
+    font-size: 2em;
+}
+
+.header-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.header-info p {
+    margin: 5px 0;
 }
 
 .section {
@@ -30,24 +82,40 @@
     padding-bottom: 5px;
 }
 
-.personal-info,
-.education,
-.experience {
-    margin: 0;
-    padding: 0;
+.section ul {
     list-style: none;
+    padding: 0;
 }
 
-.personal-info li,
-.education li,
-.experience li {
+.section ul li {
     margin-bottom: 10px;
 }
 
-.job-title {
-    font-weight: bold;
+.contact-info,
+.knowledge,
+.languages,
+.courses,
+.about,
+.skills {
+    margin-bottom: 20px;
 }
 
-.job-duration {
-    font-style: italic;
+.contact-info ul,
+.knowledge ul,
+.languages ul,
+.courses ul,
+.about ul,
+.skills ul {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+.contact-info ul li,
+.knowledge ul li,
+.languages ul li,
+.courses ul li,
+.about ul li,
+.skills ul li {
+    margin-bottom: 10px;
 }

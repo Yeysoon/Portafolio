@@ -32,8 +32,7 @@ import { VitaeComponent } from './Components/vitae/vitae.component';
     BrowserAnimationsModule,
     CarouselModule,
     HttpClientModule,
-    FormsModule,
-    VitaeComponent
+    FormsModule
   ],
   providers: [
     provideClientHydration()

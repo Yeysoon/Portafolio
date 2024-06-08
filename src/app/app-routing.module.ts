@@ -14,8 +14,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/tecnology', pathMatch: 'full' },
   { path: '', redirectTo: '/proyects', pathMatch: 'full' },
   { path: '', redirectTo: '/contacto', pathMatch: 'full' },
-  { path: '', redirectTo: '/vitae', pathMatch: 'full' },
 
+  { path: '', redirectTo: '/vitae', pathMatch: 'full' },
 
   { path: 'vitae', component: VitaeComponent },
   { path: 'tecnology', component: TeconologyComponent },
