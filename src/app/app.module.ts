@@ -11,6 +11,8 @@ import { ProyectsComponent } from './Components/proyects/proyects.component';
 import { ContactoComponent } from './Components/contacto/contacto.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CarouselModule
+    CarouselModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration()

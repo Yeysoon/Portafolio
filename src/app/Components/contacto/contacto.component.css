@@ -1,3 +1,19 @@
 .container {
     text-align: center;
 }
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes a {
+    margin: 0 10px;
+    color: #007bff;
+    /* Cambiar color de los íconos si lo deseas */
+}
+
+.redes a:hover {
+    color: #0056b3;
+    /* Cambiar color al pasar el mouse si lo deseas */
+}
