@@ -7,7 +7,6 @@ import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BodyComponent } from './Components/body/body.component';
 import { TeconologyComponent } from './Components/teconology/teconology.component';
-import { FrameworkComponent } from './Components/framework/framework.component';
 import { ProyectsComponent } from './Components/proyects/proyects.component';
 import { ContactoComponent } from './Components/contacto/contacto.component';
 
@@ -18,7 +17,6 @@ import { ContactoComponent } from './Components/contacto/contacto.component';
     FooterComponent,
     BodyComponent,
     TeconologyComponent,
-    FrameworkComponent,
     ProyectsComponent,
     ContactoComponent
   ],

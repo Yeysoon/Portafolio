@@ -1,3 +1,19 @@
-.container {
+.card-body {
     text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+    color: gray;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.angular {
+    max-width: 190px;
+    height: auto;
 }
