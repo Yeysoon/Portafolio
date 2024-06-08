@@ -4,16 +4,10 @@
 
 .card-text {
     text-align: justify;
-    color: gray;
+    color: rgb(74, 80, 133);
 }
 
 .card-img-top {
     max-width: 100%;
-    height: auto;
-}
-
-
-.angular {
-    max-width: 190px;
     height: auto;
 }

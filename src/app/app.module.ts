@@ -9,6 +9,8 @@ import { BodyComponent } from './Components/body/body.component';
 import { TeconologyComponent } from './Components/teconology/teconology.component';
 import { ProyectsComponent } from './Components/proyects/proyects.component';
 import { ContactoComponent } from './Components/contacto/contacto.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContactoComponent } from './Components/contacto/contacto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    CarouselModule
   ],
   providers: [
     provideClientHydration()
