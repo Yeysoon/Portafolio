@@ -48,3 +48,11 @@
     margin-bottom: 20px;
     /* Espacio debajo de la imagen */
 }
+
+.sobre {
+    text-align: center;
+    font-size: 24px;
+    /* Ajusta el tamaño de la fuente según tus preferencias */
+    margin-bottom: 200px;
+    /* Añade espacio debajo del título para separarlo de las tarjetas */
+}
