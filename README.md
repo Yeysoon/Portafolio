@@ -1,4 +1,4 @@
-Instrucciones para Desarrollartu portafolio:
+Instrucciones para Desarrollar tu portafolio:
 
 1.  Configura el entorno de desarrollo de Angular:
 2.  Asegúrate de tener Node.js y npm instalados en tu sistema.
