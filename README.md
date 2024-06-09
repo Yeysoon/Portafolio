@@ -1,27 +1,30 @@
-# PortafolioAngular
+Instrucciones para Desarrollartu portafolio:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+1.  Configura el entorno de desarrollo de Angular:
+2.  Asegúrate de tener Node.js y npm instalados en tu sistema.
+3.  Instala Angular CLI globalmente si aún no lo has hecho: npm install -g @angular/cli.
+4.  Crea un nuevo proyecto Angular: ng new nombre-del-proyecto.
+5.  Instala Bootstrap
+6.  Navega al directorio del proyecto: cd nombre-del-proyecto.
+7.  Instala Bootstrap utilizando npm: npm install bootstrap.
+8.  Integra Bootstrap en tu aplicación Angular:
+9.  Abre el archivo angular.json.
+10.  En la sección styles, agrega la ruta de Bootstrap CSS.
+11.  Crea componentes para tu portafolio:
+12.  Utiliza Angular CLI para generar nuevos componentes: ng generate component nombre-del-componente.
+13.  Diseña tu portafolio utilizando Bootstrap y CSS personalizado:
+14.  Utiliza las clases de Bootstrap para diseñar la estructura y los componentes de tu portafolio.
+15.  Personaliza el diseño utilizando CSS adicional según sea necesario. Puedes agregar tus propios estilos en el archivo styles.css dentro del directorio src.
+16.  Construye y prueba tu aplicación:
+17.  Ejecuta ng serve para compilar tu aplicación y servirla localmente.
+18.  Navega a http://localhost:4200/ en tu navegador para ver tu portafolio en acción.
+19.  Realiza pruebas para asegurarte de que todo funcione según lo esperado y de que el diseño se vea como deseas.
+20.  Implementa funcionalidades adicionales según sea necesario:
+21.  Agrega secciones como "Sobre mí", "Proyectos", "Habilidades", etc.
+22.  Integra funcionalidades como formularios de contacto o integración con redes sociales, según tus necesidades.
+23.  Despliegue de la aplicación:
+24.  Una vez que estés satisfecho con tu portafolio, puedes desplegarlo en la web. Hay múltiples opciones de hospedaje como Firebase, Netlify o GitHub Pages, entre otros.
 
-## Development server
+    Saludos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    Yeyson Barillas, Ingeniero en Sistemas.
